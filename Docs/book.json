@@ -1,0 +1,17 @@
+{
+  "plugins": ["include-codeblock", "ace", "edit-link"],
+  "title": "Taxi App UI",
+  "variables": {
+    "options": "react-native-taxi-app-theme"
+  },
+  "pluginsConfig": {
+    "edit-link": {
+      "base": "https://github.com/GeekyAnts/native-base-market-taxi-app-docs-ui/tree/master",
+      "label": "Edit This Page"
+    },
+    "include-codeblock": {
+      "template": "ace",
+      "unindent": true
+    }
+  }
+}

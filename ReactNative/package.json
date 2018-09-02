@@ -1,0 +1,55 @@
+{
+  "name": "StrapTaxiApp",
+  "version": "8.2.0",
+  "private": true,
+  "devDependencies": {
+    "babel-eslint": "^8.2.6",
+    "babel-jest": "23.4.2",
+    "babel-preset-react-native": "^5",
+    "eslint": "^5.4.0",
+    "eslint-plugin-flowtype": "^2.50.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-jsx-a11y": "^6.1.1",
+    "eslint-plugin-prettier": "^2.6.2",
+    "eslint-plugin-react": "^7.11.1",
+    "eslint-plugin-react-native": "^3.2.1",
+    "flow-bin": "^0.79.1",
+    "flow-typed": "^2.5.1",
+    "husky": "^0.14.3",
+    "prettier": "^1.14.2",
+    "jest": "23.5.0",
+    "jest-react-native": "18.0.0",
+    "react-test-renderer": "16.4.1"
+  },
+  "scripts": {
+    "start": "react-native start",
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "test": "jest && flow && eslint .",
+    "precommit": "yarn test"
+  },
+  "jest": {
+    "preset": "jest-expo",
+    "transformIgnorePatterns": [
+      "node_modules/(?!(react-native|lottie-react-native|expo|react-native-maps|react-native-svg|react-native-branch|native-base-shoutem-theme|react-native-easy-grid|react-native-drawer|react-native-vector-icons|react-native-keyboard-aware-scroll-view|react-native-swiper|react-navigation|native-base|@expo|react-native-scrollable-tab-view|react-native-simple-modal)/)"
+    ]
+  },
+  "dependencies": {
+    "babel-core": "^6.26.3",
+    "lodash": "^4.17.10",
+    "moment": "^2.22.2",
+    "native-base": "^2.7.2",
+    "prop-types": "^15.6.2",
+    "react": "16.4.1",
+    "react-native": "0.56.0",
+    "react-native-drawer": "https://github.com/GeekRishabh/react-native-drawer",
+    "react-native-maps": "^0.21.0",
+    "react-native-router-flux": "4.0.0-beta.27",
+    "react-native-vector-icons": "^5.0.0",
+    "react-redux": "^5.0.7",
+    "redux": "^4.0.0",
+    "redux-logger": "^3.0.6",
+    "redux-persist": "5.10.0",
+    "redux-thunk": "2.3.0"
+  }
+}
